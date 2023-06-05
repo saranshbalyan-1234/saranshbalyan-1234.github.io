@@ -1,0 +1,24 @@
+/* @media screen and (max-width: 768px) {
+    .chyyp {
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .chyyp  {
+      flex-direction: row !important;
+    }
+} */
+
+@media(max-width: 1000px){
+    .choose-us-wrapper{
+    flex-direction: column;
+    gap:30px;
+    /* align-items: center; */
+    }
+
+}
+.choose-us-wrapper{
+    text-align: left;
+/* flex-direction: row-reverse; */
+}
